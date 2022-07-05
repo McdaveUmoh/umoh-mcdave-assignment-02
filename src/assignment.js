@@ -16,10 +16,9 @@ const assignment = {};
 
 
 function sumOfNumbers(arrayOfNumbers) {
-    let sum = 0
+    let sum = 0;
     for ( x in arrayOfNumbers){
-      sum = sum + arrayOfNumbers[x]
-      
+      sum = sum + arrayOfNumbers[x];
     }
     return sum;
 }
@@ -37,10 +36,10 @@ assignment.sumOfNumbers = sumOfNumbers;
 
 
 function countEvenNumbers(arrayOfNumbers) {
-    evenNumbersArray = []
+    evenNumbersArray = [];
     for (x in arrayOfNumbers){
       if(arrayOfNumbers[x] % 2 == 0){
-        evenNumbersArray.push(arrayOfNumbers[x])
+        evenNumbersArray.push(arrayOfNumbers[x]);
       }
     }
   return evenNumbersArray.length;
